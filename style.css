@@ -77,13 +77,12 @@ body{
 
 h1.quest-title1,h1.quest-title2{
 	font-family:UGCY;
-    font-size:4.5vw;
+    font-size:40px;
     background: #FFF;
     border-radius: 10px;
     white-space: nowrap;
     padding:10px 15px 5px 15px;
     display:inline;
-    box-shadow: rgba(0,0,0,0.5) 0 0 15px;
     z-index:10;
 }
 .text-overlay{
