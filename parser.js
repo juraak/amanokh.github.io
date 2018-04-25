@@ -60,6 +60,12 @@ function addFakeCollection(quest){
 		}
 	});
 	myMap.geoObjects.add(myCollection);
+    var bnd = myMap.geoObjects.getBounds();
+    bnd[1][0]+=1.15*(bnd[1][0]-bnd[0][0]);
+    /*bounds[0][0]-=0.004;
+    bounds[0][1]-=0.004;
+    bounds[1][1]+=0.004;*/
+    myMap.setBounds(bnd);
 }
 function addNamedFakeCollection(quest){
 	var myCollection = new ymaps.GeoObjectCollection();
@@ -185,11 +191,13 @@ function nextQuest(){
 		(quest['type']=='noname') ? addPoints(quest) : addNamedPoints(quest);
 		
 	} else {
-		$('#q-num').html("Твой балл: "+yy.toString());
-		document.getElementById("share_vk").innerHTML=VK.Share.button(false,{type: "round", text: "Поделиться"});
+		endQuest();
 	}
 }
-
+function endQuest(){
+    $('#q-num').html("Твой балл: "+yy.toString()+"   "+endings[yy]['title']);
+    document.getElementById("share_vk").innerHTML=VK.Share.button(false,{type: "round", text: "Поделиться"});
+}
 
 function startQuiz(){
 	$('#block').css({'top':'-20px','width':'100%','box-shadow': '0 0 10px rgba(0,0,0,0.5)',
