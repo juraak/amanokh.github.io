@@ -3,6 +3,7 @@ var checked_question = 0;
 var yy=0;
 var ql = [];
 var myMap;
+var truePlace;
 
 ymaps.ready(init);
 changeMapSize();
@@ -46,6 +47,8 @@ function addFakeCollection(quest){
 	myCollection.events.add('click',function(e){
 		var place = e.get('target');
 		var template = makeColorPoint('red');
+		var template1 = makeColorPoint('green');
+		truePlace.options.set('iconLayout',template1);
 		place.options.set('iconLayout',template);
 		var coords = place.geometry.getCoordinates();
 		for(var i = 0;i<fake_coords.length;++i){
@@ -84,6 +87,8 @@ function addNamedFakeCollection(quest){
 				a.html(quest['fake_comments'][i]);
 				var template = makeNamedColorPoint(quest['fake_titles'][i],'red');
 				place.options.set('iconLayout',template);
+				var template1 = makeNamedColorPoint(quest['true_title'],'green');
+				truePlace.options.set('iconLayout',template1);
 				$('#next_button').css('display','flex');
 				$('#grad').css('display','block');
 			}
@@ -136,7 +141,7 @@ function makePoint(coords){
 	return e;
 }
 function addPoints(quest){
-	var truePlace = new makePoint(quest['ll']);
+	truePlace = new makePoint(quest['ll']);
 	truePlace.events.add('click', function(e){
 			truePlace.options.set('preset','islands#greenCircleDotIcon');
 			var a=$('#alert');
@@ -155,7 +160,7 @@ function addPoints(quest){
 		
 }
 function addNamedPoints(quest){
-	var truePlace = new makeNamedPoint(quest['id'],quest['ll']);
+	truePlace = new makeNamedPoint(quest['true_title'],quest['ll']);
 	truePlace.events.add('click', function(e){
 			truePlace.options.set('preset','islands#greenCircleDotIcon');
 			var a=$('#alert');
