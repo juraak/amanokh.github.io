@@ -11,7 +11,7 @@ function init(){
 		center: [52.284, 104.29],
 		zoom: 14,
 		controls: []
-	},{yandexMapDisablePoiInteractivity: true, maxZoom: 15});
+	},{yandexMapDisablePoiInteractivity: true, maxZoom: 15, minZoom:12});
 	$('#start_button').attr('class','btn btn-primary');
 	$('#start_button').prop('disabled',false);
 }
