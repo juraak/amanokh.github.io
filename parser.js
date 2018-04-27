@@ -31,7 +31,13 @@ function changeMapSize(){
 	document.getElementById('map').style.height = h.toString()+"px";
 	myMap.container.fitToViewport();
 }
-
+function hideTitle(){
+    if (window.innerWidth<=480) $('#q-title').css({'display':'none'})
+}
+function showButtons(){
+    $('#next_button').css('display','flex');
+    $('#grad').css('display','block');
+}
 function makeColorPoint(color){
 	return ymaps.templateLayoutFactory.createClass('<div class="point-layout"><div class="point point-' + color + '"><div class="dot-icon"></div></div></div>');
 }
@@ -50,6 +56,8 @@ function addFakeCollection(quest){
 		var template1 = makeColorPoint('green');
 		truePlace.options.set('iconLayout',template1);
 		place.options.set('iconLayout',template);
+        showButtons();
+        hideTitle();
 		var coords = place.geometry.getCoordinates();
 		for(var i = 0;i<fake_coords.length;++i){
 			if(coords[0] == fake_coords[i][0] && coords[1] == fake_coords[i][1]){
@@ -57,18 +65,10 @@ function addFakeCollection(quest){
 				a.css({'display':'inline-block','animation':'fadeInDown 0.5s cubic-bezier(.36,.07,.19,.97) both'});
 				a.attr('class','alert alert-warning');
 				a.html(quiz[question]['fake_comments'][i]);
-				$('#next_button').css('display','flex');
-				$('#grad').css('display','block');
 			}
 		}
 	});
 	myMap.geoObjects.add(myCollection);
-    var bnd = myMap.geoObjects.getBounds();
-    bnd[1][0]+=1.15*(bnd[1][0]-bnd[0][0]);
-    /*bounds[0][0]-=0.004;
-    bounds[0][1]-=0.004;
-    bounds[1][1]+=0.004;*/
-    myMap.setBounds(bnd);
 }
 function addNamedFakeCollection(quest){
 	var myCollection = new ymaps.GeoObjectCollection();
@@ -81,6 +81,7 @@ function addNamedFakeCollection(quest){
 		var coords = place.geometry.getCoordinates();
 		for(var i = 0;i<fake_coords.length;++i){
 			if(coords[0] == fake_coords[i][0] && coords[1] == fake_coords[i][1]){
+                hideTitle();
 				var a=$('#alert');
 				a.css({'display':'inline-block','animation':'fadeInDown 0.5s cubic-bezier(.36,.07,.19,.97) both'});
 				a.attr('class','alert alert-warning');
@@ -89,8 +90,7 @@ function addNamedFakeCollection(quest){
 				place.options.set('iconLayout',template);
 				var template1 = makeNamedColorPoint(quest['true_title'],'green');
 				truePlace.options.set('iconLayout',template1);
-				$('#next_button').css('display','flex');
-				$('#grad').css('display','block');
+                showButtons();
 			}
 		}
 	});
@@ -143,6 +143,7 @@ function makePoint(coords){
 function addPoints(quest){
 	truePlace = new makePoint(quest['ll']);
 	truePlace.events.add('click', function(e){
+            hideTitle();
 			truePlace.options.set('preset','islands#greenCircleDotIcon');
 			var a=$('#alert');
 			var template = makeColorPoint('green');
@@ -150,8 +151,7 @@ function addPoints(quest){
 			a.css({'display':'inline-block','animation':'fadeInDown 0.5s cubic-bezier(.36,.07,.19,.97) both'});
 			a.attr('class','alert alert-success');
 			a.html(quiz[question]['why_true']);
-			$('#next_button').css('display','flex');
-			$('#grad').css('display','block');
+            showButtons();
 			yy++;
 		});
 	
@@ -162,6 +162,7 @@ function addPoints(quest){
 function addNamedPoints(quest){
 	truePlace = new makeNamedPoint(quest['true_title'],quest['ll']);
 	truePlace.events.add('click', function(e){
+            hideTitle();
 			truePlace.options.set('preset','islands#greenCircleDotIcon');
 			var a=$('#alert');
 			var template = makeNamedColorPoint(quest['true_title'],'green');
@@ -169,8 +170,7 @@ function addNamedPoints(quest){
 			a.css({'display':'inline-block','animation':'fadeInDown 0.5s cubic-bezier(.36,.07,.19,.97) both'});
 			a.attr('class','alert alert-success');
 			a.html(quiz[question]['why_true']);
-			$('#next_button').css('display','flex');
-			$('#grad').css('display','block');
+            showButtons();
 			yy++;
 		});
 	
@@ -178,7 +178,8 @@ function addNamedPoints(quest){
 	addNamedFakeCollection(quest);
 }
 function nextQuest(){
-	if (question>-1){myMap.geoObjects.removeAll();}
+    question++;
+	myMap.geoObjects.removeAll();
 	$('#next_button').css('display','none');
 	$('#grad').css('display','none');
 	$('#alert').css({'display':'none'});
@@ -187,14 +188,19 @@ function nextQuest(){
 	var q_list = document.getElementById("list-group")
 	var next_button = document.getElementById("next_button")
 	setQuestsList();
-	if (question+1 < quiz.length){
-		question++;
+	if (question < quiz.length){
 		var quest = quiz[question];
 		$('#q-num').html((question+1).toString());
 		$('#q-title').html(quest['title']);
-		
+		$('#q-title').css('display','block');
 		(quest['type']=='noname') ? addPoints(quest) : addNamedPoints(quest);
-		
+		var bnd = myMap.geoObjects.getBounds();
+        bnd[1][0]+=1.15*(bnd[1][0]-bnd[0][0]);
+        /*bounds[0][0]-=0.004;
+        bounds[0][1]-=0.004;
+        bounds[1][1]+=0.004;*/
+        myMap.setBounds(bnd);
+        
 	} else {
 		endQuest();
 	}
