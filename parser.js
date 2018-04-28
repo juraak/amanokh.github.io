@@ -190,7 +190,7 @@ function nextQuest(){
 	setQuestsList();
 	if (question < quiz.length){
 		var quest = quiz[question];
-		$('#q-num').html((question+1).toString());
+		$('#q-num').html((question+1).toString()+"/"+quiz.length);
 		$('#q-title').html(quest['title']);
 		$('#q-title').css('display','block');
 		(quest['type']=='noname') ? addPoints(quest) : addNamedPoints(quest);

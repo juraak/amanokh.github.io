@@ -137,7 +137,30 @@ h3.quest-title{
     transform: translate3d(0, 0, 0);
   }
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 480px){
+    #block{
+		width: 100%;
+		padding: 30px;
+	}
+    h1.quest-title2,h1.quest-title1{
+        font-size:4.5vw;
+    }
+	h3.quest-title{
+		font-size:1.2rem;
+	}
+	#q-num{
+		margin-top:1rem;
+		margin-bottom:0.5rem;
+	}
+    .text-overlay{
+        top:-75px;
+    }
+    #text-shadow{
+        margin-top:-50px;
+    }
+	
+}
+@media screen and (min-width: 480px) and (max-width: 800px){
 	#block{
 		width: 100%;
 		padding: 30px;
