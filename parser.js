@@ -200,6 +200,7 @@ function nextQuest(){
         bounds[0][1]-=0.004;
         bounds[1][1]+=0.004;*/
         myMap.setBounds(bnd);
+        myMap.options.set('maxZoom',quest['zoom']);
         
 	} else {
 		endQuest();
