@@ -39,7 +39,7 @@ body{
 	-moz-filter: blur(5px);
 	-o-filter: blur(5px);
 	-ms-filter: blur(5px);
-	filter: blur(5px);
+	filter: blur(15px);
 	transition-property: filter, -ms-filter, -o-filter,-moz-filter,-webkit-filter;
 	transition-duration: .25s;
 	
@@ -61,6 +61,18 @@ body{
 	filter: blur(0px)!important;
 	z-index: 0!important;
 }
+.quizzed{
+    top:-20px!important;
+    width:100%!important;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+    background-color:rgba(255,255,255,0.95);
+}
+.unquizzed{
+    max-width:865px;
+    background-color:#FFF;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+    border-radius:20px;
+}
 .alert-success{
 	background-color:#FFF!important;
 	border-color:#00d25f!important;
@@ -74,14 +86,16 @@ body{
 #next_button{
 	
 }
-
+#share_pic{
+    margin:0 auto;
+}
 h1.quest-title1,h1.quest-title2{
 	font-family:UGCY;
     font-size:40px;
     background: #FFF;
-    border-radius: 10px;
+    border-radius: 20px;
     white-space: nowrap;
-    padding:10px 15px 5px 15px;
+    padding:12px 20px 10px 20px;
     display:inline;
     z-index:10;
 }

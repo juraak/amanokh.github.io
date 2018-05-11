@@ -207,13 +207,23 @@ function nextQuest(){
 	}
 }
 function endQuest(){
-    $('#q-num').html("Твой балл: "+yy.toString()+"   "+endings[yy]['title']);
-    document.getElementById("share_vk").innerHTML=VK.Share.button(false,{type: "round", text: "Поделиться"});
+    $('#q-title').html("Неплохо! Поделись результатом с друзьями" );
+    $('#block').removeClass('quizzed');
+    $('#block').addClass('unquizzed');
+    $('#map').removeClass('deblurred');
+    $('#grad').css('opacity','100');
+    $('#grad').css('display','block')
+    $('#q-num').css('display','none');
+    $('#share_pic').html('<img class="img-fluid" id="share_pic" src="endings/'+yy+'.png">');
+    var vk_url = 'http://excalc.ru/endings/'+yy+'.png'
+    $('#share_vk').html(VK.Share.button({
+        url: 'http://excalc.ru',
+        title: 'Ога',
+    }));
 }
 
 function startQuiz(){
-	$('#block').css({'top':'-20px','width':'100%','box-shadow': '0 0 10px rgba(0,0,0,0.5)',
-	'background-color': 'rgba(255,255,255,0.95)',});
+	$('#block').addClass('quizzed');
 	$('#title').css('display','none');
 	$('#desc').css('display','none');
 	$('#start_button').css('display','none');
