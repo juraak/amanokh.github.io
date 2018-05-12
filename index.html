@@ -10,7 +10,7 @@
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="stt.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-		<title>YaMaps API</title>
+		<title>Как хорошо ты знаешь Иркутск?</title>
 	</head>
 	<body onresize="changeMapSize()">		
 		<div id="map"></div>
@@ -20,14 +20,14 @@
             <div id="text-shadow">
                 
                 <div class="text-center">
-                    <h1 id="title" class="quest-title1">Как хорошо ты знаешь</h1>
+                    <h1 id="title" class="quest-title1">Как хорошо ты</h1>
                     </div>
                 <div class="text-center">
-                    <h1 id="title" class="quest-title2">историю города Иркутска?</h1>
+                    <h1 id="title" class="quest-title2">знаешь город Иркутск?</h1>
                 </div>
                 
             </div>
-            <h5 id="desc" class="quest-desc">Иркутск славится своей </h5>
+            <h5 id="desc" class="quest-desc"></h5>
 			<p id="q-num"></p>
 			<h3 id="q-title" class="quest-title"></h3>
 			<div id="alert" class="alert alert-success" role="alert" style="display:none;">
@@ -38,9 +38,10 @@
 			
 			<button id="next_button" type="button" onclick="nextQuest()" class="btn btn-primary" style="display:none">Следующее задание</button>
             <div id="share_pic"></div>
-            <div id="share_vk">vk</div>
+            <div id="share_vk"></div>
             
 		</div>
+        <div id="about"><a class="href" href="http://excalc.ru/about">О сайте</a></div>
 		
 		
 		<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>

@@ -53,6 +53,17 @@ body{
 	transition-property: opacity;
 	transition-duration: .5s;
 }
+p.ot{
+    padding-left:25px;
+}
+a.href{
+    color:#000:
+}
+#about{
+    position:absolute;
+    right:5px;
+    bottom:0px;
+}
 .deblurred{
 	-webkit-filter: blur(0px) !important;
 	-moz-filter: blur(0px)!important;
