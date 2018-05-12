@@ -214,7 +214,7 @@ function endQuest(){
     $('#grad').css('opacity','100');
     $('#grad').css('display','block')
     $('#q-num').css('display','none');
-    $('#share_pic').html('<img class="img-fluid" id="share_pic" src="endings/'+yy+'.png">');
+    $('#share_pic').html('<img class="img-fluid" id="share_pic" src="end/'+yy+'.png">');
     var vk_url = 'http://excalc.ru/endings/'+yy+'.png'
     $('#share_vk').html(VK.Share.button({
         url: 'http://excalc.ru',

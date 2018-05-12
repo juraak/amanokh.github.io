@@ -1,0 +1,225 @@
+html, body {
+    width: 100%; margin: 0; min-width:360px;
+}
+body{
+}
+@font-face{
+	font-family: 'UGCY';
+	font-style: normal;
+	font-weight: 400;
+	src: url(UGCY.woff2) format("woff2"), 
+	url(UGCY.woff) format("woff");
+	
+}
+#block{
+	width: 80%;
+	margin: 0 auto;
+	top:18%;
+	position:relative;
+	/*box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background-color: rgba(255,255,255,0.95);*/
+    
+	padding: 50px 50px 50px 50px;
+	transition-property: top,width,height;
+	transition-duration: .5s;
+	transition-timing-function: ease-in-out;
+}
+#map{
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: -99999;
+	top:0px;
+	display: block;
+	
+	width: 100%;
+	height: 100%;
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(15px);
+	transition-property: filter, -ms-filter, -o-filter,-moz-filter,-webkit-filter;
+	transition-duration: .25s;
+	
+}
+
+#grad{
+	background: linear-gradient(45deg, rgba(236, 216, 143, 0.76), rgba(255, 99, 99, 0.5));
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transition-property: opacity;
+	transition-duration: .5s;
+}
+p.ot{
+    padding-left:25px;
+}
+a.href{
+    color:#000:
+}
+#about{
+    position:absolute;
+    right:5px;
+    bottom:0px;
+}
+.deblurred{
+	-webkit-filter: blur(0px) !important;
+	-moz-filter: blur(0px)!important;
+	-o-filter: blur(0px)!important;
+	-ms-filter: blur(0px)!important;
+	filter: blur(0px)!important;
+	z-index: 0!important;
+}
+.quizzed{
+    top:-20px!important;
+    width:100%!important;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+    background-color:rgba(255,255,255,0.95);
+}
+.unquizzed{
+    max-width:865px;
+    background-color:#FFF;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+    border-radius:20px;
+}
+.alert-success{
+	background-color:#FFF!important;
+	border-color:#00d25f!important;
+	color:#000!important;
+}
+.alert-warning{
+	border-color:#d8ac2e!important;
+	background-color:#FFF!important;
+	color:#000!important;
+}
+#next_button{
+	
+}
+#share_pic{
+    margin:0 auto;
+}
+h1.quest-title1,h1.quest-title2{
+	font-family:UGCY;
+    font-size:40px;
+    background: #FFF;
+    border-radius: 20px;
+    white-space: nowrap;
+    padding:12px 20px 10px 20px;
+    display:inline;
+    z-index:10;
+}
+.text-overlay{
+    position:relative;
+    top:-130px;
+}
+
+h3.quest-title{
+	font-family:UGCY;
+}
+#text-shadow{
+    position: relative;
+    margin-top:-100px;
+}
+.text-center{
+    display:block;
+    margin:0 auto;
+}
+#start_button{
+	display:flex; 
+	margin: 0 auto; 
+	margin-top:40px;
+	cursor:pointer;
+}
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@media screen and (max-width: 480px){
+    #block{
+		width: 100%;
+		padding: 30px;
+	}
+    h1.quest-title2,h1.quest-title1{
+        font-size:4.5vw;
+    }
+	h3.quest-title{
+		font-size:1.2rem;
+	}
+	#q-num{
+		margin-top:1rem;
+		margin-bottom:0.5rem;
+	}
+    .text-overlay{
+        top:-75px;
+    }
+    #text-shadow{
+        margin-top:-50px;
+    }
+	
+}
+@media screen and (min-width: 480px) and (max-width: 800px){
+	#block{
+		width: 100%;
+		padding: 30px;
+	}
+    h1.quest-title2,h1.quest-title1{
+        font-size:4.5vw;
+    }
+	h3.quest-title{
+		font-size:1.5rem;
+	}
+	#q-num{
+		margin-top:1rem;
+		margin-bottom:0.5rem;
+	}
+    .text-overlay{
+        top:-75px;
+    }
+    #text-shadow{
+        margin-top:-50px;
+    }
+	
+}
+@media screen and (min-width: 800px) and (max-width: 1100px){
+    h1.quest-title2,h1.quest-title1{
+        font-size:4.5vw;
+    }
+    .text-overlay{
+        top:-93px;
+    }
+    #text-shadow{
+        margin-top:-55px;
+    }
+	
+}
+
+
+
+
