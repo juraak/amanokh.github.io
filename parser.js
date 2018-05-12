@@ -218,9 +218,9 @@ function endQuest(){
     var vk_url = 'http://excalc.ru/endings/'+yy+'.png'
     $('#share_vk').html(VK.Share.button({
         url: 'http://excalc.ru',
-        title: 'Ога',
-    }));
-}
+        title: 'А как хорошо ты знаешь Иркутск?',
+    },{type: "custom", text: "<img src=\"/share/vk.png\" width=\"32\" height=\"32\" />"}));
+};
 
 function startQuiz(){
 	$('#block').addClass('quizzed');
