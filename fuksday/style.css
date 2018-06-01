@@ -4,6 +4,7 @@
     position: absolute;
     top: 50%;
     left: 15%;
+	padding-bottom:25%;
     font-size:2em;
     line-height: 1.3em;
 }
