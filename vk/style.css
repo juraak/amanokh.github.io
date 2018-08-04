@@ -1,0 +1,14 @@
+html, body {
+    width: 100%; height: 100%; margin: 0; min-width:360px;
+	overflow:hidden;
+}
+body{
+}
+@font-face{
+	font-family: 'UGCY';
+	font-style: normal;
+	font-weight: 400;
+	src: url(UGCY.woff2) format("woff2"), 
+	url(UGCY.woff) format("woff");
+	
+}
