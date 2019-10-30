@@ -55,7 +55,7 @@ var quiz=[
 {
 	"id":"tuz",
 	"type":"noname",
-	"ll":[52.279951, 104.283172],
+	"ll":[52.273718, 104.289844],
     "zoom":16,
 	"fake_locations":[[52.287849, 104.249437],[52.287906, 104.280902],[52.270347, 104.257008]],
 	"fake_comments":["No, there is a park here.", "No, it is just the Central City Square.", "No, there you can find only Khrushchev's architecture:)"],
