@@ -22,7 +22,7 @@ var quiz=[
 	"ll":[52.298385, 104.256378],
     "zoom":13,
 	"fake_locations":[[52.280871, 104.266613],[52.302042, 104.285088],[52.298530, 104.209343],[52.271487, 104.276334]],
-	"fake_comments":["It's really narrow for burg! This is Sibiryakovskiy island, and Dyachiy is located on a mouth of Irkut river","This is Sibiryakovskiy island, but Dyachiy is located on a mouth of Irkut river","This island doesn't have any name! Dyachiy is located on a mouth of Irkut river","No, this is Yunost' island, and Dyachiy is located on a mouth of Irkut river"],
+	"fake_comments":["It's really narrow for burg! This is Sibiryakovskiy island, and Dyachiy is located on a mouth of Irkut river","This is Komsomolsky island, but Dyachiy is located on a mouth of Irkut river","This island doesn't have any name! Dyachiy is located on a mouth of Irkut river","No, this is Yunost' island, and Dyachiy is located on a mouth of Irkut river"],
 	"title":"Relied upon some chronicles, Irkutsk burg was built in the beginning of 17\'th century at Dyachiy island. Could you find it?",
 	"fake_titles":["о. Сибиряковский","о. Комсомольский","о. Безымянный","о. Юность"],
 	"true_title":"о. Дьячий",
