@@ -1,7 +1,7 @@
 // VARIABLES
 const magicalUnderlines = Array.from(document.querySelectorAll('.underline--magical'));
 
-const gradientAPI = '/gradient.json';
+const gradientAPI = 'https://manokhin.live/gradient.json';
 
 // HELPER FUNCTIONS
 
