@@ -214,8 +214,8 @@ function endQuest(){
     $('#grad').css('opacity','100');
     $('#grad').css('display','block')
     $('#q-num').css('display','none');
-    $('#share_pic').html('<img class="img-fluid" id="share_pic" src="/end/'+yy+'.png">');
-    var vk_url = 'https://manokhin.live/end/'+yy+'.png'
+    $('#share_pic').html('<img class="img-fluid" id="share_pic" src="end/'+yy+'.png">');
+    var vk_url = 'https://manokhin.live/irkutsk/end/'+yy+'.png'
     $('#share_vk').html(VK.Share.button({
         url: "https://manokhin.live",
         image: vk_url,

@@ -7,8 +7,8 @@ body{
 	font-family: 'UGCY';
 	font-style: normal;
 	font-weight: 400;
-	src: url(UGCY.woff2) format("woff2"), 
-	url(UGCY.woff) format("woff");
+	src: url(/fonts/UGCY.woff2) format("woff2"), 
+	url(/fonts/UGCY.woff) format("woff");
 	
 }
 #block{
