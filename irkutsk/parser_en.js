@@ -214,10 +214,10 @@ function endQuest(){
     $('#grad').css('opacity','100');
     $('#grad').css('display','block')
     $('#q-num').css('display','none');
-    $('#share_pic').html('<img class="img-fluid" id="share_pic" src="/end_eng/'+yy+'.png">');
-    var vk_url = 'https://manokhin.live/end_eng/'+yy+'.png'
+    $('#share_pic').html('<img class="img-fluid" id="share_pic" src="end_eng/'+yy+'.png">');
+    var vk_url = 'https://manokhin.live/irkutsk/end_eng/'+yy+'.png'
     $('#share_vk').html(VK.Share.button({
-        url: "https://manokhin.live",
+        url: "https://manokhin.live/irkutsk/en",
         image: vk_url,
         title: 'А как хорошо ты знаешь Иркутск?',
     },{type: "custom", text: "<img src=\"/share/vk.png\" width=\"32\" height=\"32\" />"}));

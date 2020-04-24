@@ -1,0 +1,64 @@
+body {
+  width: 80%;
+  margin: 10vw auto;
+}
+@font-face{
+	font-family: 'UGCY';
+	font-style: normal;
+	font-weight: 400;
+	src: url(/fonts/UGCY.woff2) format("woff2"), 
+	url(/fonts/UGCY.woff) format("woff");
+	
+}
+.heading {
+  font-family: UGCY, sans-serif;
+  font-size: 12vw;
+}
+
+.subheading {
+  font-family: "Open Sans", sans-serif;
+  font-size: 5vw;
+  line-height: 1.5;
+}
+
+.link{
+    margin-right: 0.25em;
+}
+
+a {
+  color: #000 !important;
+  text-decoration: none
+}
+@media screen and (min-width: 40em) {
+  body {
+    width: 70%;
+  }
+  .heading {
+    font-size: 6vw;
+  }
+
+  .subheading {
+    font-size: 3vw;
+  }
+}
+
+
+/*================================================
+Start Important Part
+==================================================*/
+
+.underline--magical {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+  
+}
+.underline--magical:hover, .underline{
+    background-size: 100% 88%;
+  }
+
+/*================================================
+End Important Part
+==================================================*/

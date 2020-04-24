@@ -217,7 +217,7 @@ function endQuest(){
     $('#share_pic').html('<img class="img-fluid" id="share_pic" src="end/'+yy+'.png">');
     var vk_url = 'https://manokhin.live/irkutsk/end/'+yy+'.png'
     $('#share_vk').html(VK.Share.button({
-        url: "https://manokhin.live",
+        url: "https://manokhin.live/irkutsk",
         image: vk_url,
         title: 'А как хорошо ты знаешь Иркутск?',
     },{type: "custom", text: "<img src=\"/share/vk.png\" width=\"32\" height=\"32\" />"}));
