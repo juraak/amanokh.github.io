@@ -126,6 +126,7 @@ h3.quest-title{
 .text-center{
     display:block;
     margin:0 auto;
+    position: relative;
 }
 #start_button{
 	display:flex; 
