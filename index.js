@@ -1,7 +1,7 @@
 // VARIABLES
 const magicalUnderlines = Array.from(document.querySelectorAll('.underline--magical'));
 
-const gradientAPI = '/gradiant.json';
+const gradientAPI = '/gradient.json';
 
 // HELPER FUNCTIONS
 
