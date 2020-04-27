@@ -1,6 +1,6 @@
 body {
   width: 80%;
-  max-width: 960px;
+  max-width: 1200px;
   margin: 10vw auto;
 }
 @font-face{
@@ -85,7 +85,7 @@ a{
   }
 
   .subheading {
-    font-size: 6vw;
+    font-size: 5vw;
   }
 }
 
