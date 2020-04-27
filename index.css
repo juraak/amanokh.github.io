@@ -11,6 +11,18 @@ body {
 	url(/fonts/UGCY.woff) format("woff");
 	
 }
+.inner{
+  margin:auto;
+  padding: 15px;
+  width:inherit;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  z-index:2;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 .heading {
   font-family: UGCY, sans-serif;
   font-size: 5.5vw;
@@ -43,10 +55,17 @@ body {
 }
 
 a{
-  color: #000 !important;
   text-decoration: none
 }
 
+.btn{
+  cursor: pointer;
+}
+
+.emoji-gif{
+  width: 64px;
+  margin-bottom: 15px;
+}
 @media screen and (max-width: 480px){
   body {
     width: 80%;
