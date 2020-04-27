@@ -1,5 +1,6 @@
 body {
-  width: 70%;
+  width: 80%;
+  max-width: 960px;
   margin: 10vw auto;
 }
 @font-face{
@@ -23,6 +24,22 @@ body {
 
 .link{
     margin-right: 0.25em;
+}
+
+.contentHeading{
+  font-family: UGCY;
+  font-size: 4vw;
+}
+
+.contentDescription{
+  font-family: "Open Sans", sans-serif;
+  font-size: 18pt;
+}
+
+.contentLink{
+  font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  font-size: 3vw;
+  font-weight: bold;
 }
 
 a{
