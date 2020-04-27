@@ -11,17 +11,6 @@ body {
 	url(/fonts/UGCY.woff) format("woff");
 	
 }
-.inner{
-  margin:auto;
-  padding: 15px;
-  width:inherit;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  z-index:2;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
 
 .heading {
   font-family: UGCY, sans-serif;
@@ -58,9 +47,27 @@ a{
   text-decoration: none;
   color: #000;
 }
-
+.alink{
+  color: #0075ce;
+  cursor: pointer;
+}
 .btn{
   cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .emoji-gif{
