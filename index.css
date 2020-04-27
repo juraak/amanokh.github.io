@@ -55,7 +55,8 @@ body {
 }
 
 a{
-  text-decoration: none
+  text-decoration: none;
+  color: #000;
 }
 
 .btn{
@@ -66,6 +67,7 @@ a{
   width: 64px;
   margin-bottom: 15px;
 }
+
 @media screen and (max-width: 480px){
   body {
     width: 80%;
