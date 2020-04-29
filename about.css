@@ -32,7 +32,6 @@ body {
   font-size: 4vw;
 }
 
-
 .contentDescription{
   font-family: "Open Sans", sans-serif;
   font-size: 18pt;
@@ -45,7 +44,8 @@ body {
 }
 
 .img-avatar{
-  width: 200px;
+  width: 150px;
+  margin-bottom: 2em;
 }
 
 a{
@@ -94,7 +94,30 @@ a{
   }
 }
 
-
+@media screen and (min-width: 1280px){
+  .img-avatar{
+    width: 200px;
+  }
+  .main-block{
+    padding-left: 60px;
+  }
+  .heading-block{
+    height: 200px;
+    position: relative;
+  }
+  .heading-content{
+    position: absolute;
+    bottom:0;
+    font-size:72pt;
+    margin: 0;
+  }
+  .subheading {
+    font-size: 24pt;
+  }
+  .box{
+    display: flex;
+  }
+}
 
 /*================================================
 Start Important Part
