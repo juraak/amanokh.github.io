@@ -1,24 +1,14 @@
 #EXTM3U
-#EXTINF:398 group-title="Общие",Аист ТВ (Иркутск)
-http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/398/stream.m3u8
-#EXTINF:49 group-title="Общие",1+1
-http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/49/stream.m3u8
 #EXTINF:493 group-title="Общие",1+1 International
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/493/stream.m3u8
-#EXTINF:227 group-title="Новостные",112 Украина HD
-http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/227/stream.m3u8
 #EXTINF:50 group-title="Общие",2+2
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/50/stream.m3u8
 #EXTINF:34 group-title="Развлекательные",2x2
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/34/stream.m3u8
-#EXTINF:360 group-title="Новостные",78 канал
-http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/360/stream.m3u8
 #EXTINF:141 group-title="Фильмы",Amedia 1
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/141/stream.m3u8
 #EXTINF:423 group-title="Фильмы",Amedia 2
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/423/stream.m3u8
-#EXTINF:96 group-title="Познавательные",Animal Planet HD
-http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/96/stream.m3u8
 #EXTINF:224 group-title="Новостные",BBC World News
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/224/stream.m3u8
 #EXTINF:155 group-title="Фильмы",Cinema
@@ -27,7 +17,7 @@ http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/155/stream.m3u
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/225/stream.m3u8
 #EXTINF:101 group-title="Познавательные",Da Vinci Learning
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/101/stream.m3u8
-#EXTINF:418 group-title="Познавательные",Earth TV
+#EXTINF:418 group-title="Познавательные",Earth TV HD
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/418/stream.m3u8
 #EXTINF:223 group-title="Новостные",EuroNews
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/223/stream.m3u8
@@ -39,7 +29,7 @@ http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/167/stream.m3u
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/166/stream.m3u8
 #EXTINF:121 group-title="Развлекательные",Food Network HD
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/121/stream.m3u8
-#EXTINF:148 group-title="Фильмы",Fox
+#EXTINF:148 group-title="Фильмы",Fox HD
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/148/stream.m3u8
 #EXTINF:149 group-title="Фильмы",Fox Life
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/149/stream.m3u8
@@ -47,8 +37,6 @@ http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/149/stream.m3u
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/270/stream.m3u8
 #EXTINF:275 group-title="Иностранные",France24 English
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/275/stream.m3u8
-#EXTINF:372 group-title="Развлекательные",ID Fashion TV HD
-http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/372/stream.m3u8
 #EXTINF:218 group-title="Музыка",Mezzo Live HD
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/218/stream.m3u8
 #EXTINF:211 group-title="Музыка",MTV Dance
@@ -57,11 +45,11 @@ http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/211/stream.m3u
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/213/stream.m3u8
 #EXTINF:212 group-title="Музыка",MTV Россия
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/212/stream.m3u8
-#EXTINF:522 group-title="Познавательные",Nat Geo People (EN)
+#EXTINF:522 group-title="Познавательные",Nat Geo People HD (EN)
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/522/stream.m3u8
-#EXTINF:521 group-title="Познавательные",Nat Geo Wild (EN)
+#EXTINF:521 group-title="Познавательные",Nat Geo Wild HD (EN)
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/521/stream.m3u8
-#EXTINF:531 group-title="Познавательные",National Geographic (EN)
+#EXTINF:531 group-title="Познавательные",National Geographic HD (EN)
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/531/stream.m3u8
 #EXTINF:160 group-title="Фильмы",Paramount Channel
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/160/stream.m3u8
@@ -89,12 +77,12 @@ http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/132/stream.m3u
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/102/stream.m3u8
 #EXTINF:104 group-title="Познавательные",Viasat History
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/104/stream.m3u8
-#EXTINF:103 group-title="Познавательные",Viasat Nature-History HD
-http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/103/stream.m3u8
 #EXTINF:35 group-title="Развлекательные",World Fashion Channel
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/35/stream.m3u8
 #EXTINF:168 group-title="Фильмы",Zee TV Россия
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/168/stream.m3u8
+#EXTINF:398 group-title="Региональные",Аист ТВ HD (Иркутск)
+http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/398/stream.m3u8
 #EXTINF:349 group-title="Познавательные",Большая Азия HD
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/349/stream.m3u8
 #EXTINF:39 group-title="Познавательные",Вопросы и ответы
@@ -111,10 +99,8 @@ http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/161/stream.m3u
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/14/stream.m3u8
 #EXTINF:462 group-title="Фильмы",Дорамa HD
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/462/stream.m3u8
-#EXTINF:394 group-title="Новостные",Дума ТВ
+#EXTINF:394 group-title="Новостные",Дума ТВ HD
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/394/stream.m3u8
-#EXTINF:358 group-title="Познавательные",ЕГЭ ТВ
-http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/358/stream.m3u8
 #EXTINF:119 group-title="Познавательные",Живая Планета
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/119/stream.m3u8
 #EXTINF:118 group-title="Познавательные",Живая природа HD
@@ -131,8 +117,6 @@ http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/105/stream.m3u
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/37/stream.m3u8
 #EXTINF:131 group-title="Фильмы",Кинокомедия
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/131/stream.m3u8
-#EXTINF:253 group-title="Фильмы",Киномикс
-http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/253/stream.m3u8
 #EXTINF:154 group-title="Фильмы",Кинопоказ
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/154/stream.m3u8
 #EXTINF:251 group-title="Фильмы",Киносвидание
@@ -141,12 +125,10 @@ http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/251/stream.m3u
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/250/stream.m3u8
 #EXTINF:252 group-title="Фильмы",Кинохит
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/252/stream.m3u8
-#EXTINF:279 group-title="Общие",Крым 24
+#EXTINF:279 group-title="Региональные",Крым 24
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/279/stream.m3u8
 #EXTINF:248 group-title="Познавательные",Кухня ТВ
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/248/stream.m3u8
-#EXTINF:259 group-title="Спорт",Матч! Арена HD
-http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/259/stream.m3u8
 #EXTINF:3 group-title="Спорт",Матч! Страна
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/3/stream.m3u8
 #EXTINF:18 group-title="Общие",Мир
@@ -157,14 +139,10 @@ http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/351/stream.m3u
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/353/stream.m3u8
 #EXTINF:288 group-title="Общие",МИР 24 HD
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/288/stream.m3u8
-#EXTINF:18 group-title="Общие",Мир HD
-http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/344/stream.m3u8
 #EXTINF:24 group-title="Общие",Мир Премиум HD
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/24/stream.m3u8
 #EXTINF:226 group-title="Новостные",Москва 24
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/226/stream.m3u8
-#EXTINF:257 group-title="Фильмы",Мужское кино
-http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/257/stream.m3u8
 #EXTINF:437 group-title="Новостные",Настоящее время HD
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/437/stream.m3u8
 #EXTINF:92 group-title="Познавательные",Наука 2.0
@@ -191,9 +169,7 @@ http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/371/stream.m3u
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/40/stream.m3u8
 #EXTINF:287 group-title="Общие",Первый канал (+6)
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/287/stream.m3u8
-#EXTINF:475 group-title="Общие",Первый канал Евразия (KZ)
-http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/475/stream.m3u8
-#EXTINF:171 group-title="Фильмы",Победа
+#EXTINF:171 group-title="Фильмы",Победа HD
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/171/stream.m3u8
 #EXTINF:313 group-title="Познавательные",Поехали
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/313/stream.m3u8
@@ -203,15 +179,17 @@ http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/16/stream.m3u8
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/5/stream.m3u8
 #EXTINF:222 group-title="Новостные",РБК
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/222/stream.m3u8
+#EXTINF:335 group-title="Региональные",Регион 29 HD (Архангельск)
+http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/335/stream.m3u8
 #EXTINF:11 group-title="Общие",РЕН ТВ
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/11/stream.m3u8
 #EXTINF:255 group-title="Фильмы",Родное кино
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/255/stream.m3u8
 #EXTINF:2 group-title="Общие",Россия 1
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/2/stream.m3u8
-#EXTINF:337 group-title="Общие",Россия 1 (+6)
+#EXTINF:337 group-title="Региональные",Россия 1 (+6)
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/337/stream.m3u8
-#EXTINF:21 group-title="Общие",Россия HD
+#EXTINF:21 group-title="Общие",Россия 1 HD
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/21/stream.m3u8
 #EXTINF:6 group-title="Познавательные",Россия К
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/28/stream.m3u8
@@ -223,7 +201,7 @@ http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/146/stream.m3u
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/144/stream.m3u8
 #EXTINF:143 group-title="Фильмы",Русский роман
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/143/stream.m3u8
-#EXTINF:480 group-title="Общие",Санкт-Петербург
+#EXTINF:480 group-title="Региональные",Санкт-Петербург
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/480/stream.m3u8
 #EXTINF:12 group-title="Религиозные",Спас
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/12/stream.m3u8
@@ -239,7 +217,7 @@ http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/15/stream.m3u8
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/10/stream.m3u8
 #EXTINF:93 group-title="Познавательные",Техно 24
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/93/stream.m3u8
-#EXTINF:406 group-title="Общие",Тивиком HD
+#EXTINF:406 group-title="Региональные",Тивиком HD
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/406/stream.m3u8
 #EXTINF:42 group-title="Развлекательные",ТНТ (+2)
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/42/stream.m3u8
