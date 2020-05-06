@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:398 group-title="Региональные",Аист ТВ HD (Иркутск)
+http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/398/stream.m3u8
 #EXTINF:493 group-title="Общие",1+1 International
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/493/stream.m3u8
 #EXTINF:50 group-title="Общие",2+2
@@ -81,8 +83,6 @@ http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/104/stream.m3u
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/35/stream.m3u8
 #EXTINF:168 group-title="Фильмы",Zee TV Россия
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/168/stream.m3u8
-#EXTINF:398 group-title="Региональные",Аист ТВ HD (Иркутск)
-http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/398/stream.m3u8
 #EXTINF:349 group-title="Познавательные",Большая Азия HD
 http://85.143.191.135/42/dcb5162a51dc9b2399ec1d05756c7b6d2810d010/349/stream.m3u8
 #EXTINF:39 group-title="Познавательные",Вопросы и ответы
